@@ -1,0 +1,42 @@
+
+/* common section */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+.common-btn{
+    background-color: #1d4ed8;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* navbar section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 12px 0px;
+    max-width: 1200px;
+    margin: auto;
+    /* border-bottom: 1px solid #2d3748; */
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+}
