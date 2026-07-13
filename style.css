@@ -152,9 +152,106 @@ nav ul li a{
 }
 
 
+/* secure-spot section start */
+.securespot{
+    padding:100px 0;
+    /* background: white; */
+}
+.securespot h2{
+    text-align:center;
+    font-size:60px;
+    margin-bottom:8px;
+}
+.securespot-subtitle{
+    text-align:center;
+    color: grey;
+    margin-bottom:60px;
+    font-size:20px;
+}
+.securespot-parent{
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+}
+.securespot-card{
+    flex:1;
+    border:1px solid #9a9999;
+    border-radius:10px;
+    padding:25px;
+    background: white;
+} 
+.securespot-card.pro{
+    background:#0f1d2e;
+    color:#fff;
+    border:none;
+}
+.card-plan{
+    font-size:15px;
+    font-weight:bold;
+    color:#666;
+}
+.pro .card-plan{
+    color:#487fde;
+}
+.pricing-card h3{
+    font-size:55px;
+    margin:10px 0;
+}
+.price-text{
+    color:#666;
+    margin-bottom:20px;
+}
+.pro .price-text{
+    color:#ddd;
+}
+.securespot-card hr{
+    margin:20px 0;
+    border:none;
+    border-top:1px solid #ddd;
+}
+.pro hr{
+    border-color:#2b3b50;
+}
+.securespot-card ul{
+    list-style:none;
+    margin-bottom:30px;
+}
+.securespot-card ul li{
+    margin-bottom:15px;
+    position:relative;
+    padding-left:18px;
+}
+.securespot-card ul li::before{
+    content:"•";
+    color:#2d63ff;
+    position:absolute;
+    left:0;
+}
+.securespot-card button{
+    width:100%;
+    padding:14px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.standard-btn{
+    background:#fff;
+    color:#2d63ff;
+    border:2px solid #2d63ff;
+}
+.team-btn{
+    background:#fff;
+    color:#111;
+    border:2px solid #111;
+}
+
+
+
+
+
 
 /* Footer */
-
 .footer{
     background:#0f1d2e;
     padding:35px 0;
