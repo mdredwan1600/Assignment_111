@@ -152,3 +152,41 @@ nav ul li a{
 }
 
 
+
+/* Footer */
+
+.footer{
+    background:#0f1d2e;
+    padding:35px 0;
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    /* width: 60px; */
+    margin-bottom: 40px;
+}
+.footer-notice{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 40px;
+    font-size: small;
+}
+.footer-left p{
+    color:#aeb7c2;
+    font-size: 16px;
+}
+.footer-right{
+    display: flex;
+    gap: 30px;
+}
+.footer-right a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    /* transition:.3s; */
+}
+.footer-right a:hover{
+    color: white;
+}
